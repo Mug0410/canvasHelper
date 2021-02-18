@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+
                     save.setDrawingCacheEnabled(true);
                     mSignature.save(signatureCapture);
                     mSignature.clear();
