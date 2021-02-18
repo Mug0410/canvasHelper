@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         clear = findViewById(R.id.clear);
 
         clear.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 mSignature.clear();
