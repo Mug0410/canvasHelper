@@ -19,7 +19,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class Signature extends View {
+public class SignatureCreate extends View {
     public static final float STORKE_WIDTH = 5f;
     public static final float HALF_STROKE_WIDTH = STORKE_WIDTH / 2;
     private Paint paint = new Paint();
@@ -33,7 +33,7 @@ public class Signature extends View {
 
 
 
-    public Signature(Context context, AttributeSet attrs) {
+    public SignatureCreate(Context context, AttributeSet attrs) {
         super(context, attrs);
         mContext = context;
         paint.setAntiAlias(true);

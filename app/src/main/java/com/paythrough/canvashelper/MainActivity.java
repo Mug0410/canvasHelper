@@ -10,11 +10,11 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.example.canvaslib.Signature;
+import com.example.canvaslib.SignatureCreate;
 
 public class MainActivity extends AppCompatActivity {
     private LinearLayout signatureCapture;
-    private Signature mSignature;
+    private SignatureCreate mSignature;
     private Button save, clear;
 
     @Override
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mSignature = new Signature(this, null);
+        mSignature = new SignatureCreate(this, null);
         mSignature.setBackgroundColor(Color.WHITE);
 
         signatureCapture = (LinearLayout) findViewById(R.id.linearLayout1);
