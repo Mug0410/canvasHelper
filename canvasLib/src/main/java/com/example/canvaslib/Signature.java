@@ -1,4 +1,4 @@
-package com.paythrough.canvashelper;
+package com.example.canvaslib;
 
 import android.content.Context;
 import android.graphics.Bitmap;

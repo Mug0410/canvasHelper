@@ -1,0 +1,3 @@
+include ':canvasLib'
+include ':app'
+rootProject.name = "CanvasHelper"

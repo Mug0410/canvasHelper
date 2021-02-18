@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.example.canvaslib.Signature;
+
 public class MainActivity extends AppCompatActivity {
     private LinearLayout signatureCapture;
     private Signature mSignature;
